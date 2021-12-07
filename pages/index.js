@@ -5,18 +5,22 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Você merece uma contabilidade com atendimento personalizado.
+         <a href="https://clique.grupofatos.com.br/abertura-de-empresa">
+           ABRA SUA EMPRESA!</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
+          GAqui você tem o Contador estratégico para seu negocio! {' '}
           <code className={styles.code}>pages/index.js</code>
+          <a href="https://clique.grupofatos.com.br/trocar-de-contador">
+           TOQUE DE CONTADOR!!</a>
         </p>
 
         <div className={styles.grid}>
