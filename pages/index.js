@@ -18,7 +18,7 @@ export default function Home() {
 
        
       </main>
-
+      <div class="container">
       <main class="container__main">
         
         <aside class="container__left">...</aside>
@@ -29,6 +29,7 @@ export default function Home() {
       
         <nav class="container__right">...</nav>
     </main>
+    </div>
 
       <footer className={styles.footer}>
         <a
