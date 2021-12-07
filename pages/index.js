@@ -21,13 +21,19 @@ export default function Home() {
       <div class="container">
       <main class="container__main">
         
-        <aside class="container__left">...</aside>
+        <aside class="container__left">
+        Exercitation anim consectetur fugiat proident nulla consectetur dolor.
+        </aside>
 
         
-        <article class="container__middle">...</article>
+        <article class="container__middle">
+          Excepteur non in quis sint veniam.
+        </article>
 
       
-        <nav class="container__right">...</nav>
+        <nav class="container__right">
+          Aliquip consequat tempor duis excepteur labore ut sunt ullamco voluptate.
+        </nav>
     </main>
     </div>
 
