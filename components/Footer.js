@@ -6,7 +6,7 @@ const linkStyle = {
 }
 
 
-const Menu =() => (
+const Footer =() => (
     <div className={styles.footer}>
         
         <a
