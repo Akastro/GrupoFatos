@@ -20,11 +20,11 @@ const Menu =() => (
         </Link>
 
         <Link href="http://">
-        <a>Blog</a>     
+        <a style = {linkStyle}>Blog</a>     
         </Link>
 
         <Link href="http://">
-        <a>Sobre Nós</a>     
+        <a style = {linkStyle}>Sobre Nós</a>     
         </Link>
 
 
