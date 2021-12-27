@@ -19,7 +19,8 @@ export default function Home() {
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Menu />
+      <Menu />      
+     
 
 
 
@@ -54,10 +55,7 @@ export default function Home() {
         teste
       </div>
     </div>
-
     <Footer />
-
-
     </div>
     
   )
