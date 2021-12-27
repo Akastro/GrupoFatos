@@ -1,17 +1,22 @@
 import Link from "next/link";
 
+const linkStyle = {
+    marginRight: 15
+}
+
+
 const Menu =() => (
     <div>
         <Link href="http://">
-        <a>Soluções</a>     
+        <a style = {linkStyle}>Soluções</a>     
         </Link>
 
         <Link href="http://">
-        <a>Contabilidade</a>     
+        <a style = {linkStyle}>Contabilidade</a>     
         </Link>
 
         <Link href="http://">
-        <a>Servilos</a>     
+        <a style = {linkStyle}>Servilos</a>     
         </Link>
 
         <Link href="http://">
@@ -22,7 +27,7 @@ const Menu =() => (
         <a>Sobre Nós</a>     
         </Link>
 
-        
+
         </div>
 );
 
