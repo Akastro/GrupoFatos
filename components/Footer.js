@@ -7,7 +7,19 @@ const linkStyle = {
 
 const Menu =() => (
     <div>
-        <Link href="#solucoes">
+        <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{' '}
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+        </a>
+      </footer>
+
+
+      <Link href="#solucoes">
         <a style = {linkStyle}>Soluções</a>     
         </Link>
 
@@ -26,18 +38,6 @@ const Menu =() => (
         <Link href="http://">
         <a style = {linkStyle}>Sobre Nós</a>     
         </Link>
-
-        <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-      </footer>
-
         </div>
 );
 
