@@ -30,7 +30,7 @@ const Footer =() => (
         </Link>
 
         <Link href="http://">
-        <a style = {linkStyle}>Servilos</a>     
+        <a style = {linkStyle}>Serviços</a>     
         </Link>
 
         <Link href="http://">
