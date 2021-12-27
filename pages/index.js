@@ -33,7 +33,8 @@ export default function Home() {
       </main>
       <div class="container">
       <main class="container__main">
-        
+
+
         <aside class="container__left">
         Exercitation anim consectetur fugiat proident nulla consectetur dolor.
         </aside>
@@ -48,7 +49,11 @@ export default function Home() {
           Aliquip consequat tempor duis excepteur labore ut sunt ullamco voluptate.
         </nav>
     </main>
+    <div id="solucoes">
+        teste
+      </div>
     </div>
+
 
       <footer className={styles.footer}>
         <a
@@ -61,5 +66,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    
   )
 }

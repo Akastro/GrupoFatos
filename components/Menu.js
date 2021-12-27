@@ -7,7 +7,7 @@ const linkStyle = {
 
 const Menu =() => (
     <div>
-        <Link href="http://">
+        <Link href="#solucoes">
         <a style = {linkStyle}>Soluções</a>     
         </Link>
 
