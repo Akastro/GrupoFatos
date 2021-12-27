@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Menu from '../components/Menu';
-//import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -21,9 +21,6 @@ export default function Home() {
       </Head>
       <Menu />      
      
-
-
-
       <main className={styles.main}>
         <h1 className={styles.title}>
         Você merece uma contabilidade com atendimento personalizado.
@@ -55,7 +52,7 @@ export default function Home() {
         teste
       </div>
     </div>
-    
+    <Footer />
     </div>
     
   )
