@@ -1,4 +1,5 @@
 import Link from "next/link";
+import styles from '../styles/Home.module.css'
 
 const linkStyle = {
     marginRight: 15
@@ -6,8 +7,8 @@ const linkStyle = {
 
 
 const Menu =() => (
-    <div>
-        <footer className={styles.footer}>
+    <div className={styles.footer}>
+        
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
@@ -16,7 +17,7 @@ const Menu =() => (
           Feito por{' '}
           <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
-      </footer>
+      
 
 
       <Link href="#solucoes">
