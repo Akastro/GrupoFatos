@@ -2,7 +2,10 @@ import Link from "next/link";
 
 const Menu =() => (
     <div>
-        Menu de componentes<br />
+        <Link href="http://"/>
+        <a>HOME</a>
+       
+        
         </div>
 );
 

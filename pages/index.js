@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Menu from '../compoments/Menu';
 
 export default function Home() {
   return (
@@ -8,7 +9,7 @@ export default function Home() {
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Menu />
       <main className={styles.main}>
         <h1 className={styles.title}>
         Você merece uma contabilidade com atendimento personalizado.
