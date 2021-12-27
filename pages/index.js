@@ -55,7 +55,7 @@ export default function Home() {
         teste
       </div>
     </div>
-    <Footer />
+    
     </div>
     
   )
