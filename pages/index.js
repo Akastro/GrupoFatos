@@ -33,7 +33,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-        Robôs de alta produtividade ao alcance de pequenos escritórios.{' '}
+        Você merece uma contabilidade com atendimento personalizado.{' '}
           <code className={styles.code}>Saiba mais aqui</code>
         </p>
 
