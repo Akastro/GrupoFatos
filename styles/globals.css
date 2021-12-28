@@ -25,7 +25,7 @@ body{
   position: fixed;
   width: 100%;
   z-index: 999;
-  padding: 20px 0;
+  padding: 5px 0;
   background-color: #000333;
   border-bottom: solid #1b202a 1px;
 }
