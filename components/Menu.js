@@ -1,4 +1,3 @@
-import styles from '../styles/Home.module.css'
 const Menu = () => (
     <div>
         <nav className="navbar">
