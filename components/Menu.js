@@ -3,7 +3,7 @@ const Menu = () => (
         <nav className="navbar">
             <div className="max-width">
                 <div className="logo">
-                    <a href="/"><img src="logo.png" alt="Grupo Fatos" style="height: 6.2rem;"></img></a>
+                    <a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a>
                 </div>
                 <ul className="menu">
                     <li><a href="#solucao" className="menu-btn">Soluções</a></li>

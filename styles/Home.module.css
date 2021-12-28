@@ -130,6 +130,10 @@
 }
 
 .logo {
+  height: 3em;
+}
+
+.logo_footer {
   height: 1em;
 }
 
