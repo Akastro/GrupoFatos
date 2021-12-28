@@ -29,14 +29,17 @@ export default function Home() {
           
 
           <div id="solucao">
-            <h1>
-              Soluções
-            </h1>
+            <h1>Soluções</h1>
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem </div>  
             <div id="contabilidade">
               <h1>Contabilidade Digital</h1>
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem </div> 
+            <div id="servicos">
+              <h1>Nossos Serviços</h1>
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem </div> 
