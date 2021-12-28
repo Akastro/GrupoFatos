@@ -6,9 +6,11 @@ const Menu = () => (
                     <a href="/">Grupo Fatos</a>
                 </div>
                 <ul className="menu">
-                    <li><a href="/" className="menu-btn">Home</a></li>
-                    <li><a href="/sobre" className="menu-btn">Sobre</a></li>
-                    <li><a href="/contato" className="menu-btn">Contato</a></li>
+                    <li><a href="#solucao" className="menu-btn">Soluções</a></li>
+                    <li><a href="#contabilidade" className="menu-btn">Contabilidade</a></li>
+                    <li><a href="#servico" className="menu-btn">Serviços</a></li>
+                    <li><a href="https://" className="menu-btn" _target="_blank">Blog</a></li>
+                    <li><a href="/Sobre" className="menu-btn">Sobre Nós</a></li>
                 </ul>
                 <div className="menu-btn">
                     Menu
