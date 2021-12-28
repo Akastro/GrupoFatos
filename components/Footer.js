@@ -16,7 +16,7 @@ const Footer =() => (
           rel="noopener noreferrer"
         >
           Feito por{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo_footer} />
+          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
         </a>
       
 

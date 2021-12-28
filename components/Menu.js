@@ -3,7 +3,7 @@ const Menu = () => (
     <div>
         <nav className="navbar">
             <div className="max-width">
-                <div className={styles.logo}>
+                <div className="logo">
                     <a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a>
                 </div>
                 <ul className="menu">
