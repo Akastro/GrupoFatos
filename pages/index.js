@@ -19,15 +19,14 @@ export default function Home() {
       <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
       <meta name="google-site-verification" content="mNm2aKKa259yAhiAMdt1k7Ctm1WvsS-Gh5Xycgb_osc" />
       <meta name="description" content="Empresa de contabilidade com sede em São José dos Campos e unidade em São Paulo. Atende nacionalmente. Você merece um atendimento personalizado. Fale conosco!" />
-      
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-            <script src="custom.js"></script>
+
 
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
           <Menu />  
-          
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="custom.js"></script>
           <main className={styles.main}>
         <h1 className={styles.title}>
           Bem vindo a <a href="https://nextjs.org">Robolabs!</a>
