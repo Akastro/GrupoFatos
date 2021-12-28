@@ -9,16 +9,12 @@ const linkStyle = {
 const Menu =() => (
     <div>
         
-        <a
-          style = {linkStyle}
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Feito por{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-        </a>
-       
+        <Link href="http://">
+            <a style = {linkStyle}>
+            <img src="/logo.png" alt="Grupo Fatos Logo" className={styles.logo} />
+            </a>
+        </Link>
+      
 
         <Link href="#solucoes">
         <a style = {linkStyle}>Soluções</a>     
