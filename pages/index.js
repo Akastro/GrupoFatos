@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
-import styles from '../components/styles/Home.module.css';
+import styles from '../styles/Home.module.css'
 
 
 
