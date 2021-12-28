@@ -28,6 +28,37 @@ export default function Home() {
       </Head>
           <Menu />  
           
+          <main className={styles.main}>
+        <h1 className={styles.title}>
+          Bem vindo a <a href="https://nextjs.org">Robolabs!</a>
+        </h1>
+
+        <p className={styles.description}>
+        Robôs de alta produtividade ao alcance de pequenos escritórios.{' '}
+          <code className={styles.code}>Saiba mais aqui</code>
+        </p>
+
+        <div className={styles.grid}>
+          <a href="https://nextjs.org/docs" className={styles.card}>
+            <h2>Documentation &rarr;</h2>
+            <p>Find in-depth information about Next.js features and API.</p>
+          </a>
+
+          <a href="https://nextjs.org/learn" className={styles.card}>
+            <h2>Learn &rarr;</h2>
+            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          >
+            <h2>Examples &rarr;</h2>
+            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          </a>
+        </main>
+
+
           <div className={styles.container}>
           <div id="solucao">
             <h1>Soluções</h1>
