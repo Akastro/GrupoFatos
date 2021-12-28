@@ -3,11 +3,14 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 
 
+
 export default function Home() {
   return (
     <div>
       <Head>
       <meta charset="utf-8" />
+      <meta name="author" content="Anselmo Lima - Grupo Fatos" />
+      <meta name="robots" content="index, follow" />
       <meta name="theme-color" content="#000333" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#000333" />
       <meta name="msapplication-navbutton-color" content="#000333" />
@@ -15,14 +18,30 @@ export default function Home() {
       <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
       <meta name="google-site-verification" content="mNm2aKKa259yAhiAMdt1k7Ctm1WvsS-Gh5Xycgb_osc" />
       <meta name="description" content="Empresa de contabilidade com sede em São José dos Campos e unidade em São Paulo. Atende nacionalmente. Você merece um atendimento personalizado. Fale conosco!" />
+      
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="custom.js"></script>
 
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Menu />    
-      <Footer />
+          <Menu />  
+          
+
+          <div id="solucao">
+            <h1>
+              Soluções
+            </h1>
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem </div>  
+            <div id="contabilidade">
+              <h1>Contabilidade Digital</h1>
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem ipsum dolor sit amet, consectetur adip
+            Lorem </div> 
+
+          <Footer />
     </div>
     
   )
