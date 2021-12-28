@@ -66,3 +66,15 @@ a {
   /*display: none;*/
 }
 
+.logo {
+  height: 5em;
+}
+
+@media (max-width:947px){
+  .menu-btn{
+    display:block;
+    
+  }
+}
+
+
