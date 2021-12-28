@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
+import styles from '../components/styles/Home.module.css';
 
 
 
@@ -27,7 +28,7 @@ export default function Home() {
       </Head>
           <Menu />  
           
-
+          <div className={styles.container}>
           <div id="solucao">
             <h1>Soluções</h1>
             Lorem ipsum dolor sit amet, consectetur adip
@@ -43,7 +44,7 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem ipsum dolor sit amet, consectetur adip
             Lorem </div> 
-
+            </div>
           <Footer />
     </div>
     
