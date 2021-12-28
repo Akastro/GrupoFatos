@@ -1,5 +1,3 @@
-import styles from '../styles/Home.module.css';
-
 
 const Menu =() => (
     <div>
@@ -7,7 +5,7 @@ const Menu =() => (
             <div className="max-width">
                 <div className="logo">
                     <a href="https://grupofatos.com.br">
-                      <img src="/logo.png" alt="Grupo Fatos Logo"  className={styles.logo} />
+                      Grupo Fatos
                     </a>
                     <ul className="menu">
                         <li><a href="#solucoes" className="menu-btn">Soluções</a></li>
