@@ -7,4 +7,4 @@ const PrimeiraDobra = () => (
 
 );
 
-export const PrimeiraDobra;
+export default PrimeiraDobra;
