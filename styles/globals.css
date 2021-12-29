@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -28,6 +30,7 @@ body{
   padding: 5px 0;
   background-color: #000333;
   border-bottom: solid #1b202a 1px;
+  font-family: 'Raleway';
 }
 .navbar .max-width{
   display: flex;
