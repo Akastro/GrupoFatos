@@ -15,7 +15,7 @@ const Menu = () => (
                     <li><a href=" https://www.youtube.com/grupofatos " target=" _blank " className="menu-btn" _target="_blank"><i class="fab fa-youtube"></i></a></li>
                     <li><a href=" https://www.instagram.com/gf_contabilidade " target=" _blank " className="menu-btn"><i class="fab fa-instagram"></i></a></li>
                     <li><a href=" https://www.linkedin.com/company/grupo-fatos-apoio-ao-empreendedor " target=" _blank " className="menu-btn"><i class="fab fa-linkedin-in"></i></a></li>
-                    
+                    <div class=" navbar-buttons mbr-section-btn "><a class=" btn btn-primary display-7 " href=" https://grupofatos.com.br/area-do-cliente.html ">Área do Cliente</a></div>
                 </ul>
                 <div className="menu-btn">
                 <i class="fas fa-align-right"></i>
