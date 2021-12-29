@@ -116,9 +116,12 @@ a.btn:not(.btn-form) {
 
 .home{
   background-color: #6e6e6e;
-  background-image: "./public/img/back.webp";
-  width: 100vh;
-  margin: 0 auto;
+  background-image:url("https://grupofatos.com.br/assets/images/blue-bold-modern-accounting-business-website-1-1350x650.webp");
+  width: 100%;
+  margin: 0px auto;
+  padding: 473px;
+  color: #fff;
+  font-family: 'Raleway';
 }
 
 .frasechave{
