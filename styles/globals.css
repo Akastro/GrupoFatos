@@ -115,6 +115,7 @@ a.btn:not(.btn-form) {
 }
 
 .home{
+  background-color: #6e6e6e;
   background-image: "./public/img/back.webp";
   width: 100vh;
   margin: 0 auto;

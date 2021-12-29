@@ -25,8 +25,9 @@ export default function Home() {
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-          <PrimeiraDobra />
+          
           <Menu />  
+          <PrimeiraDobra />
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="custom.js"></script>
           <main className={styles.main}>
