@@ -118,17 +118,18 @@ a.btn:not(.btn-form) {
   display: flex;
   z-index: 0;
   background-color: #8ea9b7;
-  background-image:url("https://grupofatos.com.br/assets/images/blue-bold-modern-accounting-business-website-1-1350x650.webp");
+  background-image: url("https://grupofatos.com.br/assets/images/blue-bold-modern-accounting-business-website-1-1350x650.webp");
+  background-repeat: no-repeat;
+  background-position: right top;
   width: 100%;
-  margin: 0px auto;
-  padding: 473px;
+  height: 100vh;
   color: #fff;
-  font-family: 'Raleway';
+  font-family: Raleway;
 }
 
 .frasechave{
-  padding: 0px;
-  margin-left: 10px;
+  padding: 200px;
+  margin-left: 500px;
 }
 
 /*botões*/
