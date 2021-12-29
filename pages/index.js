@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import PrimeiraDobra from '../components/PrimeiraDobra';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css'
@@ -24,6 +25,7 @@ export default function Home() {
         <title>Contabilidade em São Jose dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+          <PrimeiraDobra />
           <Menu />  
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="custom.js"></script>

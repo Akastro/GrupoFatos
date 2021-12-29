@@ -114,6 +114,16 @@ a.btn:not(.btn-form) {
   cursor: pointer;
 }
 
+.home{
+  background-image: "./public/img/back.webp";
+  width: 100vh;
+  margin: 0 auto;
+}
+
+.frasechave{
+  padding: 0px;
+  margin-left: 10px;
+}
 
 /*botões*/
 .display-7 {
