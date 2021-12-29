@@ -11,10 +11,13 @@ const Menu = () => (
                     <li><a href="#servico" className="menu-btn">Serviços</a></li>
                     <li><a href="https://" className="menu-btn" _target="_blank">Blog</a></li>
                     <li><a href="/Sobre" className="menu-btn">Sobre Nós</a></li>
+                    <li>
+                    <div class="icons-menu">
                     <li><a href="https://www.facebook.com/grfatos" target=" _blank=" className="menu-btn"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href=" https://www.youtube.com/grupofatos " target=" _blank " className="menu-btn" _target="_blank"><i class="fab fa-youtube"></i></a></li>
                     <li><a href=" https://www.instagram.com/gf_contabilidade " target=" _blank " className="menu-btn"><i class="fab fa-instagram"></i></a></li>
                     <li><a href=" https://www.linkedin.com/company/grupo-fatos-apoio-ao-empreendedor " target=" _blank " className="menu-btn"><i class="fab fa-linkedin-in"></i></a></li>
+                    </div></li>
                     <li><div class=" navbar-buttons mbr-section-btn "><a class=" btn btn-primary display-7 " href=" https://grupofatos.com.br/area-do-cliente.html ">Área do Cliente</a></div></li>
                 </ul>
                 <div className="menu-btn">
