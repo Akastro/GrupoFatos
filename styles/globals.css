@@ -115,7 +115,9 @@ a.btn:not(.btn-form) {
 }
 
 .home{
-  background-color: #6e6e6e;
+  display: flex;
+  z-index: 0;
+  background-color: #8ea9b7;
   background-image:url("https://grupofatos.com.br/assets/images/blue-bold-modern-accounting-business-website-1-1350x650.webp");
   width: 100%;
   margin: 0px auto;
