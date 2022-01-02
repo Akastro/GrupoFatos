@@ -44,12 +44,7 @@ const MenuBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-           <a href="/">
-           <img src="/logo.png" alt="Grupo Fatos" style="
-                   height: 4em;
-                   padding: 0px 20px;
-               "></img>      
-           </a>
+            Grupo Fatos
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -61,6 +56,9 @@ const MenuBar = () => {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
+             <a href="/">
+              <img src="/logo.png" alt="Grupo Fatos"></img>      
+             </a>
               <MenuIcon />
             </IconButton>
             <Menu
