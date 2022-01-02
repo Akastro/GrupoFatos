@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 
 // Create a theme instance.
 const theme = createTheme({
-   palette: {
+/*    palette: {
     primary: {
       main: '#000333',
     },
@@ -13,7 +13,7 @@ const theme = createTheme({
     error: {
       main: red.A400,
     },
-  }, 
+  },  */
 });
 
 export default theme;

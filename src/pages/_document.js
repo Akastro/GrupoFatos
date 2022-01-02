@@ -1,11 +1,24 @@
 import React from 'react';
-import Document, { Html, Main, NextScript } from 'next/document';
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/core/styles';
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
+        <Head>
+          {/* PWA primary color */}
+          <meta name="theme-color" />
+          <link
+            rel="shortcut icon"
+            href="/favicon.ico"
+            type="image/x-icon"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
