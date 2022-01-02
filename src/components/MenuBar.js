@@ -45,8 +45,10 @@ const MenuBar = () => {
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
            <a href="/">
-          <img           
-           src="/logo.png" alt="Grupo Fatos"></img>           
+           <img src="/logo.png" alt="Grupo Fatos" style="
+                   height: 4em;
+                   padding: 0px 20px;
+               "></img>      
            </a>
           </Typography>
 
