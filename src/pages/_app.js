@@ -20,7 +20,6 @@ export default function MyApp(props) {
       <meta charset="utf-8" />
       <meta name="author" content="Anselmo Lima - Grupo Fatos" />
       <meta name="robots" content="index, follow" />
-      <meta name="theme-color" content="#000333" />
       <meta name="apple-mobile-web-app-status-bar-style" content="#000333" />
       <meta name="msapplication-navbutton-color" content="#000333" />
       <meta name="msapplication-TileImage" content="https://grupofatos.com.br/contabilidade/wp-content/uploads/2017/01/cropped-logo-3-1-270x270.webp&quot;" />
