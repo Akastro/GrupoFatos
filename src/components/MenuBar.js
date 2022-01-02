@@ -44,7 +44,11 @@ const MenuBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-           <a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a>
+           <a href="/">
+          <img 
+           style="height: 2em;"
+           src="/logo.png" alt="Grupo Fatos"></img>           
+           </a>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
