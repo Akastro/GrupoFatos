@@ -1,12 +1,12 @@
 import React from 'react';
 import {Button} from '@material-ui/core';
-import Menu from '../components/Menu';
+import ResponsiveAppBar from '../components/ResponsiveAppBar';
 
 
 export default function Home() {
   return (
     <div>
-          <Menu />
+          <ResponsiveAppBar />
         <h1>
           Bem vindo ao site  <a href="https://grupofatos.com.br">Grupo Fatos</a>
         </h1>
