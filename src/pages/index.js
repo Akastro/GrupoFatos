@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from '@material-ui/core';
-import Menubar from '../components/MenuBar';
+import MenuBar from '../components/MenuBar';
 
 
 export default function Home() {
