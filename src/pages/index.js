@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
 
         <Button variant="text"color="primary">Botão</Button>
-        <Button variant="contained" color="primary" href="#contained-buttons">Link</Button>
+        <Button variant="contained" color="primary" href="#contained-buttons">Link</Button><span></span>
         <Button variant="outlined" color="secundary">Botão Sem cor</Button>
 
         
