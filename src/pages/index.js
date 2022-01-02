@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button} from '@material-ui/core';
-import ResponsiveAppBar from '../components/ResponsiveAppBar';
+import ResponsiveAppBar from '../components/Menu';
 
 
 export default function Home() {
