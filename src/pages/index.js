@@ -9,7 +9,7 @@ export default function Home() {
           Bem vindo ao site  <a href="https://grupofatos.com.br">Grupo Fatos</a>
         </h1>
 
-        <Button color="primary">Botão</Button>
+        <Button variant="text"color="primary">Botão</Button>
 
         
     </div>
