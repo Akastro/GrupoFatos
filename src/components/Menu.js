@@ -15,7 +15,7 @@ import MenuItem from '@mui/material/MenuItem';
 const pages = ['Products', 'Pricing', 'Blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
-const ResponsiveAppBar = () => {
+const MenuBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -137,11 +137,11 @@ const ResponsiveAppBar = () => {
     </AppBar>
   );
 };
-export default ResponsiveAppBar;
+//export default ResponsiveAppBar;
 
 
 
-const Menu = () => (
+/* const Menu = () => (
     <div>
         <nav className="navbar">
             <div className="max-width">
@@ -167,6 +167,6 @@ const Menu = () => (
             </div>
         </nav>
     </div>
-);
+); */
 
-export default Menu;
+export default MenuBar;
