@@ -9,7 +9,7 @@ export default function Home() {
           Bem vindo ao site  <a href="https://nextjs.org">Grupo Fatos</a>
         </h1>
 
-        <Button color="primary"></Button>
+        <Button color="primary">Botão</Button>
 
         
     </div>
