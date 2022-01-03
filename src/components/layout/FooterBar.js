@@ -1,5 +1,5 @@
-import Link from '../Link';
-import Social from '../Social';
+import Link from './src/components/link';
+import Social from './src/components/Social';
 
 import { useRouter } from "next/router";
 
