@@ -41,7 +41,7 @@ const Footer = () => {
   const router = useRouter();
   return (
     <footer className={classes.footer}>
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" color="primary">
         <Grid container spacing={3} justify="center">
           {path.map(({ name, link }) => (
             <Grid item key={link}>
@@ -69,7 +69,7 @@ const Footer = () => {
           component={"a"}
           target="_blank"
           rel="noreferrer noopener"
-          href="https://satoruakiyama.com"
+          href="https:/grupofatos.com.br"
           justify="center"
           style={{
             textDecoration: "none",
