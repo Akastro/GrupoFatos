@@ -4,10 +4,10 @@ import { makeStyles } from "@material-ui/core/styles";
 
 import { Container, Grid, Typography } from "@material-ui/core";
 
-import { routes } from "data/routes";
+import { routes } from '../../../data/router';
 
-import Link from '../Link';
-import Social from '../Social';
+import Link from '../../components/Link';
+import Social from '../../components/Social';
 
 
 const useStyles = makeStyles((theme) => ({
