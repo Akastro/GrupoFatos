@@ -12,7 +12,7 @@ import Social from '../../components/Social';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor:theme.palette.primary.main,
+    backgroundColor:theme.palette.primary,
     width: `100%`,
     position: "relative",
     overflow: "hidden",
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.25em",
     color: "#fff",
     "&:hover": {
-      color: theme.palette.info.main,
+      color: theme.palette.info,
     },
   },
   copylight: {
