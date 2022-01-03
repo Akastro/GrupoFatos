@@ -10,6 +10,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function TopBar()  {
+    const classes = useStyles();
+    
     return (
         <AppBar ClassName={classes.root} color ='default'>
             <Toolbar>Grupo Fatos</Toolbar>
