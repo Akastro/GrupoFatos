@@ -19,7 +19,7 @@ function TopBar()  {
     return (
         <div ClassName={classes.root}>
         <AppBar>
-            <Toolbar><a href="/"><img height='3em' src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
+            <Toolbar><a href="/"><img height='100em' margin='0px 100px' src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
         </AppBar>
         </div>
     /* <div>
