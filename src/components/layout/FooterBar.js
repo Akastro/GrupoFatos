@@ -1,6 +1,3 @@
-import Link from './src/components/link';
-import Social from './src/components/Social';
-
 import { useRouter } from "next/router";
 
 import { makeStyles } from "@material-ui/core/styles";
@@ -8,6 +5,9 @@ import { makeStyles } from "@material-ui/core/styles";
 import { Container, Grid, Typography } from "@material-ui/core";
 
 import { routes } from "data/routes";
+
+import Link from '../Link';
+import Social from '../Social';
 
 
 const useStyles = makeStyles((theme) => ({
