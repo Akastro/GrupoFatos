@@ -5,9 +5,9 @@ import Toolbar from '@mui/material/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
     root:{
+        boxShadow: 'none',
         backgroundColor: theme.palette.primary,
-        boxShadow: none,
-              
+        zIndex:theme.zIndex.drawer+1,        
 
     }
 }));
