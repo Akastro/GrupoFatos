@@ -76,7 +76,7 @@ const Footer = () => {
           }}
         >
           <Typography className={classes.copylight}>
-            &copy;Satoru Akiyama
+            &copy;Grupo Fatos
           </Typography>
         </Grid>
       </Container>

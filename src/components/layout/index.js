@@ -6,7 +6,7 @@ import FooterBar from './FooterBar';
 const useStyles = makeStyles((theme) => ({
   root: {
     backgroundColor: theme.palette.background.dark,
-    display: 'flex',
+    display: 'inline',
     height: '100vh',
     overflow: 'hidden',
     width: '100vw',
