@@ -12,7 +12,7 @@ import Social from '../../components/Social';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor:theme.palette.primary,
+    backgroundColor:theme.palette.primary.main,
     width: `100%`,
     position: "relative",
     overflow: "hidden",
