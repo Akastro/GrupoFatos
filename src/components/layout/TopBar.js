@@ -2,9 +2,16 @@ import { makeStyles } from '@material-ui/core';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 
+
+const useStyles = makeStyles((theme) => ({
+    root:{
+
+    }
+}));
+
 function TopBar()  {
     return (
-        <AppBar>
+        <AppBar ClassName={classes.root} color ='default'>
             <Toolbar>Grupo Fatos</Toolbar>
         </AppBar>
     /* <div>
