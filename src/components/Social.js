@@ -8,7 +8,7 @@ import HomeIcon from "@material-ui/icons/Home";
 // if you wanto to add twitter
 // import TwitterIcon from '@material-ui/icons/Twitter';
 
-import { socialMedia } from "data/socialMedia";
+import { socialMedia } from "../../data/socialmedia";
 
 const useStyles = makeStyles((theme) => ({
   snsIcon: {
