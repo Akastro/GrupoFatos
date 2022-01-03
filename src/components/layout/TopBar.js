@@ -18,8 +18,8 @@ function TopBar()  {
 
     return (
         <div ClassName={classes.root}>
-        <AppBar color='inherit' >
-            <Toolbar><a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
+        <AppBar>
+            <Toolbar><a href="/"><img height='3m' src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
         </AppBar>
         </div>
     /* <div>
