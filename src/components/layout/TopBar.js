@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
     root:{
-        backgroundColor: theme.palette.secundary.dark,
+        backgroundColor: theme.palette.secundary,
 
     }
 }));
