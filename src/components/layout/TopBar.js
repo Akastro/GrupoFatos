@@ -1,5 +1,13 @@
-const TopBar = () => (
-    <div>
+import { makeStyles } from '@material-ui/core';
+import AppBar from '@mui/material/AppBar';
+import Toolbar from '@mui/material/Toolbar';
+
+function TopBar()  {
+    return (
+        <AppBar>
+            <Toolbar>Grupo Fatos</Toolbar>
+        </AppBar>
+    /* <div>
         <nav className="navbar">
             <div className="max-width">
                 <div className="logo">
@@ -23,7 +31,7 @@ const TopBar = () => (
                 </div>
             </div>
         </nav>
-    </div>
-)
-  
+    </div> */
+   )
+}
   export default TopBar;
