@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core';
 
 import { Container, Grid, Typography } from "@material-ui/core";
 
