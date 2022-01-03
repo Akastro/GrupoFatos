@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 export default function Home() {
   return (
     <div>
-          <Layout />
+          <Layout title="Contabilidade em São Jose dos Campos" />
         <h1>
           Bem vindo ao site  <a href="https://grupofatos.com.br">Grupo Fatos</a>
         </h1>
