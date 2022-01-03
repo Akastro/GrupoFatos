@@ -7,7 +7,7 @@ const useStyles = makeStyles((theme) => ({
     root:{
         backgroundColor: theme.palette.primary,
         boxShadow: none,
-        zIndex:theme.zIndex.drawer+1,        
+              
 
     }
 }));
