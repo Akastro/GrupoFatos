@@ -5,15 +5,16 @@ import Toolbar from '@mui/material/Toolbar';
 
 const useStyles = makeStyles((theme) => ({
     root:{
+        backgroundColor: theme.palette.secundary.dark,
 
     }
 }));
 
 function TopBar()  {
     const classes = useStyles();
-    
+
     return (
-        <AppBar ClassName={classes.root} color ='default'>
+        <AppBar ClassName={classes.root} >
             <Toolbar>Grupo Fatos</Toolbar>
         </AppBar>
     /* <div>
