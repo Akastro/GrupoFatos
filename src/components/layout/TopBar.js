@@ -7,7 +7,8 @@ const useStyles = makeStyles((theme) => ({
     root:{
         boxShadow: 'none',
         backgroundColor: theme.palette.primary,
-        zIndex:theme.zIndex.drawer+1,        
+        zIndex:theme.zIndex.drawer+1,
+
 
     }
 }));
@@ -17,7 +18,7 @@ function TopBar()  {
 
     return (
         <AppBar ClassName={classes.root} >
-            <Toolbar>Grupo Fatos</Toolbar>
+            <Toolbar><a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
         </AppBar>
     /* <div>
         <nav className="navbar">
