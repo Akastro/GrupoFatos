@@ -17,9 +17,11 @@ function TopBar()  {
     const classes = useStyles();
 
     return (
-        <AppBar ClassName={classes.root} >
+        <div ClassName={classes.root}>
+        <AppBar color='inherit' >
             <Toolbar><a href="/"><img src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
         </AppBar>
+        </div>
     /* <div>
         <nav className="navbar">
             <div className="max-width">
