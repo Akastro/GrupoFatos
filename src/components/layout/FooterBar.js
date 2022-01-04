@@ -1,6 +1,6 @@
 import { useRouter } from "next/router";
 
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 
 import { Container, Grid, Typography } from "@material-ui/core";
 
@@ -12,7 +12,7 @@ import Social from '../../components/Social';
 
 const useStyles = makeStyles((theme) => ({
   footer: {
-    backgroundColor:theme.palette.primary,
+    backgroundColor:theme.palette.primary.main,
     width: `100%`,
     position: "relative",
     overflow: "hidden",
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: "1.25em",
     color: "#fff",
     "&:hover": {
-      color: theme.palette.info,
+      color: theme.palette.info.main,
     },
   },
   copylight: {
@@ -41,7 +41,7 @@ const Footer = () => {
   const router = useRouter();
   return (
     <footer className={classes.footer}>
-      <Container maxWidth="lg" color="primary">
+      <Container maxWidth="lg">
         <Grid container spacing={3} justify="center">
           {path.map(({ name, link }) => (
             <Grid item key={link}>

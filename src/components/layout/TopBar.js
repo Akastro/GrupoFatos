@@ -1,4 +1,4 @@
-import { makeStyles } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 
@@ -19,7 +19,7 @@ function TopBar()  {
     return (
         <div ClassName={classes.root}>
         <AppBar>
-            <Toolbar><a href="/"><img height='100em' margin='0px 100px' src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
+            <Toolbar><a href="/"><img height='70em' padding='3px 100px' margin="10px 100px" src="/logo.png" alt="Grupo Fatos"></img></a></Toolbar>
         </AppBar>
         </div>
     /* <div>
